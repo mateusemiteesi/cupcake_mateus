@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>cupcake_mateus</title>
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js">
+    </script>
+    <script type="text/javascript" srs="jquary/jquery_textarea.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+    <script>
+        $(document).ready(function () { 
+            var $campo = $("#zip_code");
+            $campo.mask('00000-000', {reverse: true});
+    });
+        $(document).ready(function () { 
+            var $campo = $("#discount_number");
+            $campo.mask('000-000', {reverse: true});
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="ios">
+            <div class="sign">
+                <p>Claro BR 4G</p>
+                <img src="image/sign_networkb.png">
+            </div>
+            <div class="clock">
+                <h1>06:32 AM</h1>
+            </div>
+            <div class="block">
+                <img src="image/blockb.png">
+            </div>
+            <div class="alarm">
+                <img src="image/alarmb.png">
+            </div>
+            <div class="charge">
+                <p>94%</p>
+                <img src="image/battery_chargeb.png">
+            </div>
+        </div>
+        <div class="header_ios2"></div>
+        <div class="photo_user2">
+            <a href="user.html">
+                <img src="image/IMG_2044.jpg">
+            </a>
+        </div>
+        <div class="back_button4">
+            <a href="firstpage.html">
+                <img src="image/back_arrow.png">
+                <p>Cancelar</p>
+            </a>
+        </div>        
+    </header>
+    <div class="background_firstpage"></div>
+    <div class="cupcake_photo1">
+        <img src="image/cupcake_002.jpg">
+    </div>
+    <div class="delivery_address">
+        <div class="street_address">
+            <form>
+                <input type="text" maxlength="30" name="text" placeholder="adicionar endereço" value="">
+            </form>
+        </div>
+        <div class="nunber_address">
+            <form>
+                <input type="text" maxlength="6" name="text" placeholder="número do local" value="">
+            </form>
+        </div>
+        <div class="district_address">
+            <form>
+                <input type="text" maxlength="30" name="text" placeholder="bairro" value="">
+            </form>
+        </div>
+        <div class="city_address">
+            <form>
+                <input type="text" maxlength="30" name="text" placeholder="cidade" value="">
+            </form>
+        </div>
+        <div class="zip_code">
+            <form>
+                <input type="text" maxlength="9" id="zip_code" name="zip_code" placeholder="CEP"/>
+            </form>
+        </div>
+        <div class="discount_number">
+            <form>
+                <input type="text" maxlength="7" id="discount_number" name="discount_number" placeholder="número do desconto"/>
+            </form>
+        </div>
+        <div class="payment_text">
+            <h1>Escolha a forma de pagamento</h1>
+        </div>
+        <div class="box_payment">
+            <div class="pix">
+                <a href="purchase_page.html">
+                    <img src="image/pix.png">
+                </a>
+            </div>
+            <div class="cards">
+                <div class="all_cards">
+                    <img src="image/paypal.png">
+                    <img src="image/visa.png">
+                    <img src="image/mastercard.png">
+                </div>
+            </div>
+        </div>
+        <div class="btn_buy">
+            <a href="purchase_page.html">
+                <h1>CONFIRMAR</h1>
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>
