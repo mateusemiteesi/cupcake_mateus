@@ -838,13 +838,16 @@ header{
 /* PAGES cupcake_001 */
 .add_cupcake{
     position: absolute;
-    height: 120px;
-    width: 120px;
     margin-top: 240px;
     margin-left: 440px;
-    border-radius: 100px;
     z-index: 20;
-    background-color: #ff0055;
+}
+
+.add_cupcake img{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    background-color: #ff2b72;
     box-shadow: 0 10px 20px 0 #00000073, 0 10px 40px 0 #000000e0;
 }
 
